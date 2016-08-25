@@ -37,7 +37,12 @@ $ bundle install
 ```
 
 ### Run
-Run news_collector app
+Before running the application, you need to start the Redis server
+```sh
+$ redis-server
+```
+
+Now, just run news_collector app
 ```sh
 $ ruby news_collector.rb
 ```
