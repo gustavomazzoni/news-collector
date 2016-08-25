@@ -41,3 +41,8 @@ Run news_collector app
 ```sh
 $ ruby news_collector.rb
 ```
+
+You can also specify the URL to extract the zip links and the number of the threads to run in parallel
+```sh
+$ ruby news_collector.rb <URL> 20
+```
