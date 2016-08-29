@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), 'file_extractor')
+require_relative 'file_extractor'
 require 'zip'
 
 module HTTPExtractor
